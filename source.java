@@ -38,7 +38,7 @@ public class Main extends Application {
         Circle krug = new Circle();
         krug.setRadius(13);
         krug.setFill(Color.GRAY);
-        PathTransition t=new PathTransition(Duration.seconds(2),poly,krug);
+        PathTransition t=new PathTransition(Duration.seconds(0.555333),poly,krug);
         t.setCycleCount(Timeline.INDEFINITE);
         p.getChildren().addAll(poly, krug);
         t.play();
